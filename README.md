@@ -12,14 +12,14 @@ tests/
   test_utils.py  - Test files with TODOs
 ```
 
-### 📝 Complete TODO List
+## 📝 Complete TODO List
 
 - [x] `src/models.py:2` - Implement User model with proper fields and methods (Completed)
-- [x] `src/utils.py:2` - Implement password hashing logic (Completed)
+- [ ] `src/models.py:5` - Add validation for User model fields (New)
 - [ ] `src/models.py:8` - Implement database migration logic
+- [x] `src/utils.py:2` - Implement password hashing logic (Completed)
+- [ ] `src/utils.py:7` - Add input sanitization for password hashing (New)
 - [ ] `src/utils.py:10` - Add logging to all functions
 - [x] `src/utils.py:15` - Remove dead code (unused_func) (Completed)
 - [ ] `tests/test_utils.py:4` - Write tests for hash_password
 - [ ] `tests/test_utils.py:8` - Add integration tests
-- [ ] `src/models.py:5` - Add validation for User model fields (New)
-- [ ] `src/utils.py:7` - Add input sanitization for password hashing (New)
