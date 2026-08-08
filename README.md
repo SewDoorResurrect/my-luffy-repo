@@ -14,10 +14,12 @@ tests/
 
 ### 📝 Complete TODO List
 
-- [ ] `src/models.py:2` - Implement User model with proper fields and methods
-- [ ] `src/models.py:5` - Implement database migration logic
-- [ ] `src/utils.py:2` - Implement password hashing logic
-- [ ] `src/utils.py:7` - Add logging to all functions
-- [ ] `src/utils.py:12` - Remove dead code (unused_func)
-- [ ] `tests/test_utils.py:2` - Write tests for hash_password
-- [ ] `tests/test_utils.py:6` - Add integration tests
+- [x] `src/models.py:2` - Implement User model with proper fields and methods (Completed)
+- [x] `src/utils.py:2` - Implement password hashing logic (Completed)
+- [ ] `src/models.py:8` - Implement database migration logic
+- [ ] `src/utils.py:10` - Add logging to all functions
+- [x] `src/utils.py:15` - Remove dead code (unused_func) (Completed)
+- [ ] `tests/test_utils.py:4` - Write tests for hash_password
+- [ ] `tests/test_utils.py:8` - Add integration tests
+- [ ] `src/models.py:5` - Add validation for User model fields (New)
+- [ ] `src/utils.py:7` - Add input sanitization for password hashing (New)
