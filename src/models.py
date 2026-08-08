@@ -1,7 +1,10 @@
 class User:
     # TODO: Implement User model with proper fields and methods
-    pass
+    # TODO: Add validation for User model fields
+    def __init__(self, username, email):
+        self.username = username
+        self.email = email
 
-    # TODO: Implement database migration logic
 def migrate():
+    # TODO: Implement database migration logic
     pass
